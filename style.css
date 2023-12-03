@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111; /* Темный фон */
+    color: #0f0; /* Яркий текст */
+    font-family: 'Orbitron', sans-serif; /* Современный шрифт */
+}
+
+canvas {
+    border: 1px solid #0f0; /* Неоновая граница */
+    background-color: #222; /* Слегка светлее фон */
+}
+
+/* Стили для счета и сообщения "Game Over" */
+.score, .game-over {
+    color: #0f0; /* Неоновый зеленый цвет */
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #0f0; /* Неоновое свечение текста */
+}
+
+/* Дополнительные стили для улучшения отображения */
+.snake-part {
+    background-color: #ff00ff; /* Яркий цвет для змейки */
+    border: 1px solid #0f0; /* Неоновая граница для змейки */
+}
+
+.apple {
+    background-color: #00ffff; /* Яркий цвет для яблок */
+    border: 1px solid #0f0; /* Неоновая граница для яблок */
+}
